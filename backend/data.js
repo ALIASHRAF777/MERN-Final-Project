@@ -4,7 +4,7 @@ const data = {
   users: [
     {
       name: " H M Ali",
-      email: "welamehar777@gmail.com",
+      email: "admin@gmail.com",
       password: bcrypt.hashSync("123456"),
       isAdmin: true,
     },
@@ -17,11 +17,11 @@ const data = {
   ],
   products: [
     {
-      name: "S4",
+      name: "A73",
       slug: "Samsung",
       category: "Samsung",
-      image: "/images/pic1.png",
-      price: 120,
+      image: "/images/p3.webp",
+      price: 320,
       countInStock: 50,
       brand: "Samsung",
       rating: 4.5,
@@ -30,10 +30,10 @@ const data = {
     },
     {
       //_id: "2",
-      name: "F9",
+      name: "F21pro",
       slug: "OPPO",
       category: "OPPO",
-      image: "/images/f9.png",
+      image: "/images/p1.webp",
       price: 40,
       countInStock: 50,
       brand: "OPPO",
@@ -43,10 +43,10 @@ const data = {
     },
     {
       // _id: " 3",
-      name: "FindX2",
+      name: "Y53",
       slug: "VIVO",
       category: "VIVO",
-      image: "/images/findx2.png",
+      image: "/images/p4.webp",
       price: 750,
       countInStock: 50,
       brand: "VIVO",
@@ -56,10 +56,10 @@ const data = {
     },
     {
       //_id: "4",
-      name: "Find Mini",
+      name: "Camon18pro",
       slug: "INFINIX",
       category: "INFINIX",
-      image: "/images/img4.png",
+      image: "/images/p2.webp",
       price: 200,
       countInStock: 50,
       brand: "INFINIX",
